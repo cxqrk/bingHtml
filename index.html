@@ -112,7 +112,7 @@
 
         html.push('<ul class="list">');
         while (beginDate.format('YYYY') == year){
-            var imgurl = './'+ beginDate.format('YYYY') + '/' + beginDate.format('MM') + '/' + beginDate.format('DD') +'.jpg';
+            var imgurl = './images/'+ beginDate.format('YYYY') + '/' + beginDate.format('MM') + '/' + beginDate.format('DD') +'.jpg';
             html.push('<li>');
                 html.push('<img src="'+ imgurl +'" data-original="'+ imgurl +'" />');
                 html.push('<p>' + beginDate.format('YYYY-MM-DD') + '</p>')
