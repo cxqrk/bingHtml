@@ -122,6 +122,9 @@
         html.push('</ul>');
 
         $('.tabs-content').html(html.join(''));
+        $('.list').viewer({
+            url: 'data-original',
+        });
     };
     var renderInfo = function() {
         var html = [];
